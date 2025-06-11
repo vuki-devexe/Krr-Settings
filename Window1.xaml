@@ -1,0 +1,623 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Window
+	x:Class="Krr_Settings.Window1" xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation" xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+	WindowStartupLocation="CenterScreen"
+	Width="594"
+	Height="481"
+	MinHeight="481"
+	MinWidth="594"
+	Title="Settings"
+	x:Name="window1">
+	<DockPanel>
+		<Menu
+			DockPanel.Dock="Top">
+			<MenuItem
+				Header="Test"
+				x:Name="menuItem1"
+				Click="menuItem1_Click">
+				<MenuItem
+					Header="Test" />
+			</MenuItem>
+		</Menu>
+		<Grid
+			RenderTransformOrigin="0.5,0.5"
+			x:Name="grid1"
+			Loaded="grid1_Loaded">
+			<Canvas
+				Name="SideBar"
+				Grid.Column="0"
+				Grid.Row="0"
+				VerticalAlignment="Stretch"
+				HorizontalAlignment="Stretch">
+				<Border
+					BorderBrush="Black"
+					BorderThickness="1">
+					<Grid
+						Name="Settngbar"
+						Height="{Binding ActualHeight, ElementName=SideBar}"
+						Width="{Binding ActualWidth, ElementName=SideBar}">
+						<Grid.RowDefinitions>
+							<RowDefinition
+								Height="0.0595310108116147*" />
+							<RowDefinition
+								Height="0.94007648963207*" />
+						</Grid.RowDefinitions>
+						<Label
+							Content="UserName"
+							Height="27"
+							Grid.Column="0"
+							Grid.Row="0"
+							VerticalAlignment="Top"
+							Margin="0,-1,0,0"
+							HorizontalContentAlignment="Center"
+							HorizontalAlignment="Stretch"
+							VerticalContentAlignment="Center"
+							x:Name="UserNameSidebar" />
+						<ScrollViewer
+							Visibility="Visible"
+							VerticalScrollBarVisibility="Auto"
+							Grid.Column="0"
+							Grid.Row="1"
+							HorizontalAlignment="Stretch"
+							VerticalAlignment="Stretch"
+							Margin="0,1,0,-1">
+							<StackPanel
+								Orientation="Vertical">
+								<RadioButton
+									Name="Button1"
+									Height="35"
+									HorizontalAlignment="Stretch"
+									Checked="Button1_checked"
+									Style="{StaticResource OptionButtons}"
+									Background="White"
+									Content="TaskBar" />
+								<RadioButton
+									Name="Button2"
+									Checked="Button2_checked"
+									Height="35"
+									VerticalAlignment="Top"
+									HorizontalAlignment="Stretch"
+									Style="{StaticResource OptionButtons}"
+									Content="Desktop" />
+								<RadioButton
+									Height="35"
+									VerticalAlignment="Top"
+									HorizontalAlignment="Stretch"
+									Style="{StaticResource OptionButtons}"
+									x:Name="Button3"
+									Content="Alarm"
+									Checked="Button3_checked" />
+								<RadioButton
+									Height="35"
+									VerticalAlignment="Top"
+									HorizontalAlignment="Stretch"
+									Style="{StaticResource OptionButtons}"
+									x:Name="Button4"
+									Content="Users"
+									Checked="Button4_checked" />
+								<RadioButton
+									Height="35"
+									VerticalAlignment="Top"
+									HorizontalAlignment="Stretch"
+									Style="{StaticResource OptionButtons}"
+									x:Name="Button5"
+									Content="Soon"
+									Checked="Button5_checked" />
+								<RadioButton
+									Height="35"
+									HorizontalAlignment="Stretch"
+									Style="{StaticResource OptionButtons}"
+									x:Name="ButtonA"
+									Content="About"
+									VerticalAlignment="Top"
+									Checked="ButtonA_checked" />
+							</StackPanel>
+						</ScrollViewer>
+					</Grid>
+				</Border>
+			</Canvas>
+			<Grid
+				Margin="0,0,0,0"
+				HorizontalAlignment="Stretch"
+				VerticalAlignment="Stretch"
+				IsEnabled="True"
+				Grid.Column="1"
+				Grid.Row="0"
+				x:Name="id1"
+				Visibility="Hidden">
+				<Button
+					Width="75"
+					Height="23"
+					Grid.Column="0"
+					Grid.Row="0"
+					HorizontalAlignment="Right"
+					VerticalAlignment="Bottom"
+					Margin="0,0,15.4435564216725,8"
+					Content="Apply"
+					x:Name="button3"
+					Click="button3_Click" />
+				<Border
+					Width="197"
+					Grid.Column="0"
+					Grid.Row="0"
+					HorizontalAlignment="Left"
+					VerticalAlignment="Top"
+					Margin="9.5,5,0,0"
+					x:Name="tabo"
+					Height="174"
+					BorderBrush="Black"
+					BorderThickness="2">
+					<Grid
+						Height="{Binding ActualHeight, ElementName=tabo}"
+						Width="{Binding ActualWidth, ElementName=tabo}">
+						<CheckBox
+							x:Name="lt"
+							IsChecked="True"
+							Content="Lock the taskbar"
+							Grid.Column="0"
+							Grid.Row="0"
+							HorizontalAlignment="Stretch"
+							VerticalAlignment="Top"
+							Margin="9,51,27,0" />
+						<CheckBox
+							x:Name="hsb"
+							Content="Hide the start button"
+							Grid.Column="0"
+							Grid.Row="0"
+							HorizontalAlignment="Stretch"
+							VerticalAlignment="Top"
+							Margin="9,69,27,0" />
+						<CheckBox
+							x:Name="hdb"
+							Content="Hide the desktop button"
+							Grid.Column="0"
+							Grid.Row="0"
+							HorizontalAlignment="Stretch"
+							VerticalAlignment="Top"
+							Margin="9,89,13,0" />
+						<CheckBox
+							x:Name="HPB"
+							RenderTransformOrigin="0.489,0.4608"
+							Content="Hide pinned apps"
+							Grid.Column="0"
+							Grid.Row="0"
+							HorizontalAlignment="Stretch"
+							VerticalAlignment="Top"
+							Margin="9,109,27,0" />
+						<CheckBox
+							x:Name="OT"
+							RenderTransformOrigin="0.489,0.4608"
+							Content="On Top"
+							IsChecked="True"
+							Grid.Column="0"
+							Grid.Row="0"
+							HorizontalAlignment="Stretch"
+							Height="15"
+							VerticalAlignment="Top"
+							Margin="9,129,27,0" />
+						<TextBox
+							x:Name="TBCR"
+							Width="53"
+							Grid.Column="0"
+							Grid.Row="0"
+							HorizontalAlignment="Left"
+							VerticalAlignment="Stretch"
+							Margin="6,151,0,6" />
+						<TextBox
+							x:Name="TBCG"
+							Width="53"
+							Grid.Column="0"
+							Grid.Row="0"
+							HorizontalAlignment="Left"
+							Margin="72,151,0,6"
+							VerticalAlignment="Top" />
+						<TextBox
+							x:Name="TBCB"
+							Width="53"
+							Grid.Column="0"
+							Grid.Row="0"
+							HorizontalAlignment="Right"
+							Margin="0,151,6,6"
+							VerticalAlignment="Top" />
+						<Label
+							Content="Taskbar"
+							VerticalContentAlignment="Center"
+							HorizontalContentAlignment="Center"
+							Height="24"
+							Grid.Column="0"
+							Grid.Row="0"
+							HorizontalAlignment="Stretch"
+							VerticalAlignment="Top"
+							Margin="6,3,6,0" />
+						<CheckBox
+							x:Name="ah"
+							RenderTransformOrigin="0.5,0.5"
+							Content="Auto hide"
+							Grid.Column="0"
+							Grid.Row="0"
+							HorizontalAlignment="Stretch"
+							VerticalAlignment="Top"
+							Margin="9,33,27,0" />
+					</Grid>
+				</Border>
+				<Border
+					x:Name="tabo_Copy"
+					Width="202"
+					Grid.Column="0"
+					Grid.Row="0"
+					HorizontalAlignment="Left"
+					VerticalAlignment="Top"
+					Margin="8,198,0,0"
+					Height="105.5"
+					BorderBrush="Black"
+					BorderThickness="2">
+					<Grid
+						Height="{Binding ActualHeight, ElementName=tabo_Copy}"
+						Width="{Binding ActualWidth, ElementName=tabo_Copy}">
+						<Label
+							VerticalContentAlignment="Center"
+							HorizontalContentAlignment="Center"
+							Height="24"
+							Margin="6,3,6,0"
+							VerticalAlignment="Top"
+							HorizontalAlignment="Stretch"
+							Grid.Row="0"
+							Grid.Column="0"
+							Content="Start menu" />
+						<TextBox
+							Height="20"
+							x:Name="ccr"
+							Width="53"
+							Grid.Column="0"
+							Grid.Row="0"
+							HorizontalAlignment="Left"
+							VerticalAlignment="Top"
+							Margin="8.83266731625437,34.8960602382492,0,0" />
+						<TextBox
+							Height="20"
+							x:Name="ccg"
+							Width="53"
+							Grid.Column="0"
+							Grid.Row="0"
+							HorizontalAlignment="Left"
+							VerticalAlignment="Top"
+							Margin="75.3891108945819,34.8960602382492,0,0" />
+						<TextBox
+							Height="20"
+							x:Name="ccb"
+							Width="53"
+							Grid.Column="0"
+							Grid.Row="0"
+							HorizontalAlignment="Right"
+							VerticalAlignment="Top"
+							Margin="0,34.8960602382492,8.61088910541812,0" />
+						<CheckBox
+							x:Name="EDF"
+							IsChecked="True"
+							Content="Enable default folder"
+							Grid.Column="0"
+							Grid.Row="0"
+							HorizontalAlignment="Stretch"
+							VerticalAlignment="Top"
+							Margin="8.61088910541812,59.8960602382492,33.3891108945819,0" />
+						<CheckBox
+							x:Name="USC"
+							IsChecked="False"
+							Content="Use system colors"
+							Grid.Column="0"
+							Grid.Row="0"
+							HorizontalAlignment="Stretch"
+							VerticalAlignment="Stretch"
+							Margin="9,82,33,-0.5" />
+					</Grid>
+				</Border>
+				<Border
+					x:Name="tabo_Copy1"
+					BorderBrush="Black"
+					BorderThickness="2"
+					Width="202"
+					Height="78"
+					Grid.Column="0"
+					Grid.Row="0"
+					HorizontalAlignment="Right"
+					VerticalAlignment="Top"
+					Margin="0,6,18,0">
+					<Grid
+						Height="{Binding ActualHeight, ElementName=tabo_Copy1}"
+						Width="{Binding ActualWidth, ElementName=tabo_Copy1}">
+						<Label
+							VerticalContentAlignment="Center"
+							HorizontalContentAlignment="Center"
+							Height="24"
+							Margin="6,3,6,0"
+							VerticalAlignment="Top"
+							HorizontalAlignment="Stretch"
+							Grid.Row="0"
+							Grid.Column="0"
+							Content="Blocked/Hidden apps" />
+						<CheckBox
+							x:Name="EBP"
+							IsChecked="True"
+							Content="Enable blocked processes"
+							Grid.Column="0"
+							Grid.Row="0"
+							HorizontalAlignment="Stretch"
+							VerticalAlignment="Top"
+							Margin="17.0000000000001,33,24.9999999999999,0" />
+						<Label
+							Content="idk what this section does"
+							FontSize="9"
+							Height="23"
+							Grid.Column="0"
+							Grid.Row="0"
+							HorizontalAlignment="Stretch"
+							VerticalAlignment="Top"
+							Margin="37.0000000000001,50,39.9999999999999,0" />
+					</Grid>
+				</Border>
+			</Grid>
+			<Grid
+				HorizontalAlignment="Stretch"
+				VerticalAlignment="Stretch"
+				Margin="0,0,0,0"
+				Grid.Column="1"
+				Grid.Row="0"
+				x:Name="id2"
+				Visibility="Hidden">
+				<Border
+					x:Name="image1"
+					Loaded="image1_Loaded"
+					Background="{x:Null}"
+					Width="431"
+					Height="190.00000000000003"
+					Grid.Column="0"
+					Grid.Row="0"
+					HorizontalAlignment="Left"
+					VerticalAlignment="Top"
+					Margin="0,0,0,0" />
+				<Button
+					Content="Change background"
+					Height="23"
+					Width="124.99999999999997"
+					Grid.Column="0"
+					Grid.Row="0"
+					HorizontalAlignment="Left"
+					VerticalAlignment="Bottom"
+					Margin="10,0,0,20"
+					x:Name="button4"
+					Click="button4_Click" />
+				<ComboBox
+					x:Name="cb"
+					Loaded="cb_Loaded"
+					Height="20"
+					Width="124.99999999999997"
+					Grid.Column="0"
+					Grid.Row="0"
+					HorizontalAlignment="Center"
+					VerticalAlignment="Bottom"
+					Margin="0,0,0,21">
+					<ComboBoxItem
+						Content="Fill" />
+					<ComboBoxItem
+						Content="Fit" />
+					<ComboBoxItem
+						Content="Strech" />
+					<ComboBoxItem
+						Content="Tile" />
+					<ComboBoxItem
+						Content="Center" />
+					<ComboBoxItem
+						Content="Span" />
+				</ComboBox>
+				<Button
+					Height="23"
+					x:Name="button4_Copy"
+					Grid.Column="0"
+					Grid.Row="0"
+					VerticalAlignment="Bottom"
+					Width="124.99999999999997"
+					HorizontalAlignment="Right"
+					Margin="0,0,7,19.5"
+					Content="Update Background"
+					Click="button4_Copy_Click" />
+			</Grid>
+			<Grid
+				Grid.Column="1"
+				Grid.Row="0"
+				HorizontalAlignment="Stretch"
+				VerticalAlignment="Stretch"
+				x:Name="id3"
+				Margin="0,0,0,0"
+				Visibility="Hidden"></Grid>
+			<Grid
+				Grid.Column="1"
+				Grid.Row="0"
+				HorizontalAlignment="Stretch"
+				VerticalAlignment="Stretch"
+				x:Name="id4"
+				Margin="0,0,0,0">
+				<Border
+					Width="100"
+					Height="100"
+					x:Name="PFP"
+					Grid.Column="0"
+					Grid.Row="0"
+					HorizontalAlignment="Right"
+					VerticalAlignment="Top"
+					Margin="0,12,7,0" />
+				<Label
+					Content="user"
+					HorizontalContentAlignment="Right"
+					FontSize="16"
+					x:Name="UserNameUserTab"
+					Height="36"
+					Width="297"
+					Grid.Column="0"
+					Grid.Row="0"
+					HorizontalAlignment="Right"
+					VerticalAlignment="Bottom"
+					Margin="0,0,120,369" />
+				<Label
+					HorizontalContentAlignment="Right"
+					FontWeight="Bold"
+					Content="admin"
+					FontSize="9"
+					x:Name="isa"
+					Height="30"
+					Width="301"
+					Grid.Column="0"
+					Grid.Row="0"
+					HorizontalAlignment="Right"
+					VerticalAlignment="Bottom"
+					Margin="0,0,120,339" />
+				<Border
+					Height="23"
+					Width="117"
+					BorderBrush="Black"
+					BorderThickness="1"
+					Grid.Column="0"
+					Grid.Row="0"
+					HorizontalAlignment="Left"
+					VerticalAlignment="Bottom"
+					Margin="14,0,0,108">
+					<Button
+						Width="117"
+						Content="Change username"
+						Grid.Column="0"
+						Grid.Row="0"
+						HorizontalAlignment="Left"
+						Height="23"
+						VerticalAlignment="Bottom"
+						Margin="0,0,0,0" />
+				</Border>
+				<Border
+					Height="23"
+					Width="117"
+					BorderBrush="Black"
+					BorderThickness="1"
+					Grid.Column="0"
+					Grid.Row="0"
+					HorizontalAlignment="Left"
+					VerticalAlignment="Bottom"
+					Margin="14,0,0,79">
+					<Button
+						x:Name="button2"
+						Click="button2_Click"
+						Width="117"
+						Content="Change password"
+						Grid.Column="0"
+						Grid.Row="0"
+						HorizontalAlignment="Left"
+						Height="23"
+						VerticalAlignment="Bottom"
+						Margin="0,0,0,0" />
+				</Border>
+				<Border
+					Height="23"
+					Width="117"
+					Grid.Column="0"
+					Grid.Row="0"
+					HorizontalAlignment="Left"
+					VerticalAlignment="Bottom"
+					Margin="14,0,0,51"
+					BorderBrush="Black"
+					BorderThickness="1">
+					<Button
+						Width="117"
+						Content="Change user type"
+						Height="23"
+						Grid.Column="0"
+						Grid.Row="0"
+						HorizontalAlignment="Left"
+						VerticalAlignment="Bottom"
+						Margin="0,0,0,0" />
+				</Border>
+				<Border
+					Height="23"
+					Width="117"
+					Grid.Column="0"
+					Grid.Row="0"
+					HorizontalAlignment="Left"
+					VerticalAlignment="Bottom"
+					Margin="14,0,0,20"
+					BorderBrush="Black"
+					BorderThickness="1">
+					<Button
+						Width="117"
+						Content="Change profile pic.."
+						Grid.Column="0"
+						Grid.Row="0"
+						HorizontalAlignment="Left"
+						Height="23"
+						VerticalAlignment="Bottom"
+						Margin="0,0,0,0" />
+				</Border>
+				<Border
+					BorderBrush="Black"
+					BorderThickness="1"
+					Width="76"
+					Height="24"
+					Grid.Column="0"
+					Grid.Row="0"
+					HorizontalAlignment="Right"
+					VerticalAlignment="Bottom"
+					Margin="0,0,18,19">
+					<Button
+						Height="23"
+						Content="Apply"
+						Grid.Column="0"
+						Grid.Row="0"
+						HorizontalAlignment="Right"
+						VerticalAlignment="Top"
+						Width="75"
+						Margin="0,0,0,0" />
+				</Border>
+				<Border
+					Height="23"
+					Width="117"
+					BorderBrush="Black"
+					BorderThickness="1"
+					Grid.Column="0"
+					Grid.Row="0"
+					HorizontalAlignment="Left"
+					VerticalAlignment="Bottom"
+					Margin="14,0,0,139">
+					<Button
+						Width="117"
+						x:Name="button1"
+						Click="button1_Click"
+						Content="Change other user"
+						IsEnabled="False"
+						Grid.Column="0"
+						Grid.Row="0"
+						HorizontalAlignment="Left"
+						Height="23"
+						VerticalAlignment="Bottom"
+						Margin="0,0,0,0" />
+				</Border>
+			</Grid>
+			<Grid
+				Grid.Column="1"
+				Grid.Row="0"
+				HorizontalAlignment="Stretch"
+				VerticalAlignment="Stretch"
+				x:Name="id5"
+				Margin="0,0,0,0"
+				Visibility="Hidden"></Grid>
+			<Grid
+				Grid.Column="1"
+				Grid.Row="0"
+				HorizontalAlignment="Stretch"
+				VerticalAlignment="Stretch"
+				x:Name="id6"
+				Margin="0,0,0,0"
+				Visibility="Hidden"></Grid>
+			<Grid.ColumnDefinitions>
+				<ColumnDefinition
+					Width="0.261986301369863*" />
+				<ColumnDefinition
+					Width="0.738013698630137*" />
+			</Grid.ColumnDefinitions>
+		</Grid>
+	</DockPanel>
+</Window>
