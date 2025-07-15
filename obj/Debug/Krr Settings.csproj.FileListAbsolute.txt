@@ -1,0 +1,88 @@
+C:\Users\vukiYT2011\source\repos\Krr Settings\bin\Debug\Krr Settings.exe.config
+C:\Users\vukiYT2011\source\repos\Krr Settings\bin\Debug\Krr Settings.exe
+C:\Users\vukiYT2011\source\repos\Krr Settings\bin\Debug\Krr Settings.pdb
+C:\Users\vukiYT2011\source\repos\Krr Settings\obj\Debug\Krr Settings.csproj.AssemblyReference.cache
+C:\Users\vukiYT2011\source\repos\Krr Settings\obj\Debug\MainWindow.g.cs
+C:\Users\vukiYT2011\source\repos\Krr Settings\obj\Debug\App.g.cs
+C:\Users\vukiYT2011\source\repos\Krr Settings\obj\Debug\Krr Settings_MarkupCompile.cache
+C:\Users\vukiYT2011\source\repos\Krr Settings\obj\Debug\Krr Settings_MarkupCompile.lref
+C:\Users\vukiYT2011\source\repos\Krr Settings\obj\Debug\MainWindow.baml
+C:\Users\vukiYT2011\source\repos\Krr Settings\obj\Debug\Krr Settings.g.resources
+C:\Users\vukiYT2011\source\repos\Krr Settings\obj\Debug\Krr_Settings.Properties.Resources.resources
+C:\Users\vukiYT2011\source\repos\Krr Settings\obj\Debug\Krr Settings.csproj.GenerateResource.cache
+C:\Users\vukiYT2011\source\repos\Krr Settings\obj\Debug\Krr Settings.csproj.CoreCompileInputs.cache
+C:\Users\vukiYT2011\source\repos\Krr Settings\obj\Debug\Krr Settings.exe
+C:\Users\vukiYT2011\source\repos\Krr Settings\obj\Debug\Krr Settings.pdb
+C:\Users\vukiYT2011\source\repos\Krr Settings\bin\Debug\Azure.Core.dll
+C:\Users\vukiYT2011\source\repos\Krr Settings\bin\Debug\Microsoft.Bcl.AsyncInterfaces.dll
+C:\Users\vukiYT2011\source\repos\Krr Settings\bin\Debug\Microsoft.Bcl.Memory.dll
+C:\Users\vukiYT2011\source\repos\Krr Settings\bin\Debug\Microsoft.Bcl.TimeProvider.dll
+C:\Users\vukiYT2011\source\repos\Krr Settings\bin\Debug\Microsoft.Extensions.Logging.Abstractions.dll
+C:\Users\vukiYT2011\source\repos\Krr Settings\bin\Debug\Microsoft.Graph.Core.dll
+C:\Users\vukiYT2011\source\repos\Krr Settings\bin\Debug\Microsoft.Graph.dll
+C:\Users\vukiYT2011\source\repos\Krr Settings\bin\Debug\Microsoft.Identity.Client.dll
+C:\Users\vukiYT2011\source\repos\Krr Settings\bin\Debug\Microsoft.IdentityModel.Abstractions.dll
+C:\Users\vukiYT2011\source\repos\Krr Settings\bin\Debug\Microsoft.IdentityModel.JsonWebTokens.dll
+C:\Users\vukiYT2011\source\repos\Krr Settings\bin\Debug\Microsoft.IdentityModel.Logging.dll
+C:\Users\vukiYT2011\source\repos\Krr Settings\bin\Debug\Microsoft.IdentityModel.Protocols.dll
+C:\Users\vukiYT2011\source\repos\Krr Settings\bin\Debug\Microsoft.IdentityModel.Protocols.OpenIdConnect.dll
+C:\Users\vukiYT2011\source\repos\Krr Settings\bin\Debug\Microsoft.IdentityModel.Tokens.dll
+C:\Users\vukiYT2011\source\repos\Krr Settings\bin\Debug\Microsoft.IdentityModel.Validators.dll
+C:\Users\vukiYT2011\source\repos\Krr Settings\bin\Debug\Microsoft.Kiota.Abstractions.dll
+C:\Users\vukiYT2011\source\repos\Krr Settings\bin\Debug\Microsoft.Kiota.Authentication.Azure.dll
+C:\Users\vukiYT2011\source\repos\Krr Settings\bin\Debug\Microsoft.Kiota.Http.HttpClientLibrary.dll
+C:\Users\vukiYT2011\source\repos\Krr Settings\bin\Debug\Microsoft.Kiota.Serialization.Form.dll
+C:\Users\vukiYT2011\source\repos\Krr Settings\bin\Debug\Microsoft.Kiota.Serialization.Json.dll
+C:\Users\vukiYT2011\source\repos\Krr Settings\bin\Debug\Microsoft.Kiota.Serialization.Multipart.dll
+C:\Users\vukiYT2011\source\repos\Krr Settings\bin\Debug\Microsoft.Kiota.Serialization.Text.dll
+C:\Users\vukiYT2011\source\repos\Krr Settings\bin\Debug\Std.UriTemplate.dll
+C:\Users\vukiYT2011\source\repos\Krr Settings\bin\Debug\System.Buffers.dll
+C:\Users\vukiYT2011\source\repos\Krr Settings\bin\Debug\System.ClientModel.dll
+C:\Users\vukiYT2011\source\repos\Krr Settings\bin\Debug\System.Diagnostics.DiagnosticSource.dll
+C:\Users\vukiYT2011\source\repos\Krr Settings\bin\Debug\System.IdentityModel.Tokens.Jwt.dll
+C:\Users\vukiYT2011\source\repos\Krr Settings\bin\Debug\System.Memory.Data.dll
+C:\Users\vukiYT2011\source\repos\Krr Settings\bin\Debug\System.Memory.dll
+C:\Users\vukiYT2011\source\repos\Krr Settings\bin\Debug\System.Net.Http.WinHttpHandler.dll
+C:\Users\vukiYT2011\source\repos\Krr Settings\bin\Debug\System.Numerics.Vectors.dll
+C:\Users\vukiYT2011\source\repos\Krr Settings\bin\Debug\System.Runtime.CompilerServices.Unsafe.dll
+C:\Users\vukiYT2011\source\repos\Krr Settings\bin\Debug\System.Text.Encodings.Web.dll
+C:\Users\vukiYT2011\source\repos\Krr Settings\bin\Debug\System.Text.Json.dll
+C:\Users\vukiYT2011\source\repos\Krr Settings\bin\Debug\System.Threading.Tasks.Extensions.dll
+C:\Users\vukiYT2011\source\repos\Krr Settings\bin\Debug\System.ValueTuple.dll
+C:\Users\vukiYT2011\source\repos\Krr Settings\bin\Debug\Azure.Core.xml
+C:\Users\vukiYT2011\source\repos\Krr Settings\bin\Debug\Microsoft.Bcl.AsyncInterfaces.xml
+C:\Users\vukiYT2011\source\repos\Krr Settings\bin\Debug\Microsoft.Bcl.Memory.xml
+C:\Users\vukiYT2011\source\repos\Krr Settings\bin\Debug\Microsoft.Bcl.TimeProvider.xml
+C:\Users\vukiYT2011\source\repos\Krr Settings\bin\Debug\Microsoft.Extensions.Logging.Abstractions.xml
+C:\Users\vukiYT2011\source\repos\Krr Settings\bin\Debug\Microsoft.Graph.xml
+C:\Users\vukiYT2011\source\repos\Krr Settings\bin\Debug\Microsoft.Graph.Core.xml
+C:\Users\vukiYT2011\source\repos\Krr Settings\bin\Debug\Microsoft.Identity.Client.xml
+C:\Users\vukiYT2011\source\repos\Krr Settings\bin\Debug\Microsoft.IdentityModel.Abstractions.xml
+C:\Users\vukiYT2011\source\repos\Krr Settings\bin\Debug\Microsoft.IdentityModel.JsonWebTokens.xml
+C:\Users\vukiYT2011\source\repos\Krr Settings\bin\Debug\Microsoft.IdentityModel.Logging.xml
+C:\Users\vukiYT2011\source\repos\Krr Settings\bin\Debug\Microsoft.IdentityModel.Protocols.xml
+C:\Users\vukiYT2011\source\repos\Krr Settings\bin\Debug\Microsoft.IdentityModel.Protocols.OpenIdConnect.xml
+C:\Users\vukiYT2011\source\repos\Krr Settings\bin\Debug\Microsoft.IdentityModel.Tokens.xml
+C:\Users\vukiYT2011\source\repos\Krr Settings\bin\Debug\Microsoft.IdentityModel.Validators.xml
+C:\Users\vukiYT2011\source\repos\Krr Settings\bin\Debug\Microsoft.Kiota.Abstractions.xml
+C:\Users\vukiYT2011\source\repos\Krr Settings\bin\Debug\Microsoft.Kiota.Authentication.Azure.xml
+C:\Users\vukiYT2011\source\repos\Krr Settings\bin\Debug\Microsoft.Kiota.Http.HttpClientLibrary.xml
+C:\Users\vukiYT2011\source\repos\Krr Settings\bin\Debug\Microsoft.Kiota.Serialization.Form.xml
+C:\Users\vukiYT2011\source\repos\Krr Settings\bin\Debug\Microsoft.Kiota.Serialization.Json.xml
+C:\Users\vukiYT2011\source\repos\Krr Settings\bin\Debug\Microsoft.Kiota.Serialization.Multipart.xml
+C:\Users\vukiYT2011\source\repos\Krr Settings\bin\Debug\Microsoft.Kiota.Serialization.Text.xml
+C:\Users\vukiYT2011\source\repos\Krr Settings\bin\Debug\System.Buffers.xml
+C:\Users\vukiYT2011\source\repos\Krr Settings\bin\Debug\System.ClientModel.xml
+C:\Users\vukiYT2011\source\repos\Krr Settings\bin\Debug\System.Diagnostics.DiagnosticSource.xml
+C:\Users\vukiYT2011\source\repos\Krr Settings\bin\Debug\System.IdentityModel.Tokens.Jwt.xml
+C:\Users\vukiYT2011\source\repos\Krr Settings\bin\Debug\System.Memory.xml
+C:\Users\vukiYT2011\source\repos\Krr Settings\bin\Debug\System.Memory.Data.xml
+C:\Users\vukiYT2011\source\repos\Krr Settings\bin\Debug\System.Net.Http.WinHttpHandler.xml
+C:\Users\vukiYT2011\source\repos\Krr Settings\bin\Debug\System.Numerics.Vectors.xml
+C:\Users\vukiYT2011\source\repos\Krr Settings\bin\Debug\System.Runtime.CompilerServices.Unsafe.xml
+C:\Users\vukiYT2011\source\repos\Krr Settings\bin\Debug\System.Text.Encodings.Web.xml
+C:\Users\vukiYT2011\source\repos\Krr Settings\bin\Debug\System.Text.Json.xml
+C:\Users\vukiYT2011\source\repos\Krr Settings\bin\Debug\System.Threading.Tasks.Extensions.xml
+C:\Users\vukiYT2011\source\repos\Krr Settings\bin\Debug\System.ValueTuple.xml
+C:\Users\vukiYT2011\source\repos\Krr Settings\obj\Debug\Krr Sett.C3169F8C.Up2Date
+C:\Users\vukiYT2011\source\repos\Krr Settings\obj\Debug\Krr Settings.exe.config
