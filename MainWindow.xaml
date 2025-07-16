@@ -188,7 +188,7 @@
                 </ScrollViewer>
             </Grid>
         </Border>
-        <Grid x:Name="Home" Grid.Column="1" Visibility="Collapsed">
+        <Grid x:Name="HomePage" Grid.Column="1" Visibility="Collapsed">
             <Border x:Name="DesktopHome" Height="70" Margin="10,10,0,0" VerticalAlignment="Top" CornerRadius="5" BorderBrush="Black" BorderThickness="2" Background="#FFFAFAFA" HorizontalAlignment="Left" Width="100" Loaded="Border_Loaded"/>
             <Label x:Name="PCNameHome" Content="PC Name (Desktop-123...)" HorizontalAlignment="Left" Margin="115,10,0,0" VerticalAlignment="Top" Width="331" Height="35" FontWeight="Bold" FontSize="16" VerticalContentAlignment="Center" Loaded="PCNameHome_Loaded"/>
             <Label x:Name="UserHome" Content="Example User" HorizontalAlignment="Left" Margin="115,45,0,0" VerticalAlignment="Top" Width="331" Height="22" FontSize="10" VerticalContentAlignment="Center"/>
@@ -213,7 +213,7 @@
             </Border>
             <Grid Height="100" Width="100"/>
         </Grid>
-        <Grid x:Name="System" Grid.Column="1">
+        <Grid x:Name="SystemPage" Grid.Column="1">
             <Button Content="Check For Updates" Margin="10,67,10,0" VerticalAlignment="Top" Height="52" VerticalContentAlignment="Center" HorizontalContentAlignment="Center" FontSize="20" Click="Button_Click_1"/>
             <Button Content="System Info" Margin="10,124,10,0" VerticalAlignment="Top" Height="52" VerticalContentAlignment="Center" HorizontalContentAlignment="Center" FontSize="20" Click="Button_Click_2"/>
             <Button Content="About &quot;OS&quot;" Margin="10,10,10,0" VerticalAlignment="Top" Height="52" VerticalContentAlignment="Center" HorizontalContentAlignment="Center" FontSize="20" Click="Button_Click"/>

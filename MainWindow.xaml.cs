@@ -120,15 +120,15 @@ namespace Krr_Settings
         }
         public void ChangePage(int PageId, int SubPageId)
         {
-            Home.Visibility = Visibility.Collapsed;
-            System.Visibility = Visibility.Collapsed;
+            HomePage.Visibility = Visibility.Collapsed;
+            SystemPage.Visibility = Visibility.Collapsed;
 
             AboutOSSubPage.Visibility = Visibility.Collapsed;
             CheckForUpdatesSubPage.Visibility = Visibility.Collapsed;
             SystemInfoSubPage.Visibility = Visibility.Collapsed;
             if (PageId == 0) {
                 if (SubPageId == 0) {
-                    Home.Visibility = Visibility.Visible;
+                    HomePage.Visibility = Visibility.Visible;
                     IsConnectedToInternetViaPing();
                 }
                 
@@ -136,7 +136,7 @@ namespace Krr_Settings
             if (PageId == 1) {
                 if (SubPageId == 0)
                 {
-                    System.Visibility = Visibility.Visible;
+                    SystemPage.Visibility = Visibility.Visible;
                 }
                 if (SubPageId == 1)
                 {
